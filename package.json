@@ -1,6 +1,7 @@
 {
   "version": "0.0.0",
   "homepage": "http://tvibe58.github.io/vue-study",
+  "private":"true",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
