@@ -1,7 +1,7 @@
 import vue from '@vitejs/plugin-vue'
 const path = require('path')
 // vite.config.js # or vite.config.ts
-console.log(path.resolve(__dirname, './src'))
+console.log('path:',path.resolve(__dirname, './src'))
 module.exports = {
   plugins: [vue()],
   "resolve.alias": {
