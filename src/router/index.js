@@ -22,14 +22,14 @@ console.log('r43', url())
 // 或者，只是一个组件配置对象。
 const routes = [
   {
-    // path: url('/'),
-    path: '/',
+    path: url('/'),
+    // path: '/',
     name:'HelloWorld',
     component: HelloWorld
   },
   {
-    // path: url('/home'),
-    path: '/home',
+    path: url('/home'),
+    // path: '/home',
     name:'Home',
     component: Home
   }
